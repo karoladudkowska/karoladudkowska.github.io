@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+
+    <form  action="https://formspree.io/f/mknpqgyn" method="POST">
+
+    <fieldset>
+
+        <legend>Dane Osobowe</legend>
+
+        <label for="imię">Imię:</label><br />
+     
+        <input type="text" name="imię" id="imię"><br />
+     
+        <label for="nazwisko">Nazwisko:</label><br />
+     
+        <input type="text" name="nazwisko" id="nazwisko"><br />
+
+        <label for="email">Email:</label><br />
+     
+        <input type="email" name="email" id="email" required><br />
+
+        <label for="tel">Telefon:</label><br />
+     
+        <input type="tel" name="tel" id="tel" placeholder="XXX-XXX-XXX"><br />
+
+        <label for="city">Miasto:</label><br />
+
+        <select id="city" name="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+          </select> 
+
+    </fieldset>
+
+    <fieldset>
+        
+        <legend>Płeć</legend>
+     
+        <label><input type="radio" name="sex" id="woman" value="woman" checked>Kobieta</label><br />
+
+        <label><input type="radio" name="sex" id="man"
+          value="man">Mężczyzna</label><br />
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Zgody i Wiadomość</legend>
+
+        <label><input type="checkbox" name="agreement" id="agreement"  value="agreement" checked>Zgoda Marketingowa</label><br/>
+
+        <label for="message">Write your message to us:</label><br/>
+
+        <textarea id="message" name="message" maxlength="50">
+
+        </textarea><br/>
+
+    </fieldset><br/>
+
+        <input type="submit" value="Wyślij" >
+    </form>
+
+</body>
+</html>
