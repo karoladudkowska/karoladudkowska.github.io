@@ -1,0 +1,107 @@
+#black {
+    color:rgba (0,0,0,0.0);
+    text-align: center;
+    margin: auto;
+    width: 499px;
+    height: 200px;
+}
+
+
+#first {
+    background-color: black;
+    animation-name: change;
+    animation-duration: 1s;
+    animation-iteration-count: 1; 
+   
+}
+
+#second {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    
+}
+
+#third {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;    
+}
+
+#fourth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;    
+}
+#fifth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;    
+}
+
+#sixth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;    
+}
+
+
+#seventh {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 6s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;    
+}
+#eighth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 7s;
+    animation-duration: 1s;
+    animation-iteration-count: 1; 
+
+}
+#ninth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 8s;
+    animation-duration: 1s;
+    animation-iteration-count: 1; 
+}
+#tenth {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 9s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+#love {
+    background-color: black;
+    animation-name: change;
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes change {
+    0%, 50% {
+        color: white;
+    
+        
+    }
+    100% {
+        color:rgba(255,255,255,0.0); 
+              
+    }
+}
+
