@@ -11303,7 +11303,7 @@ header.header-image .header-content .header-content-inner h5 {
 
 #slider-testimonials {
   min-height: 500px;
-  background-color: #f7f7f7;
+  background-color: #f0f4dc;
 }
 
 #slider-testimonials .carousel-inner {
@@ -11895,6 +11895,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #team {
   padding: 24px 0;
+  background-color: #f0f4dc;
 }
 
 .t108-one-page #team .container {
