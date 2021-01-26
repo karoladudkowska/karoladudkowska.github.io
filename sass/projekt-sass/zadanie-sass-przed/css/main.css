@@ -11690,7 +11690,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   width: 96px;
   height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
 }
@@ -11838,7 +11838,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 }
 
 .t108-one-page #counters-services .icon-services:hover {
-  transform: rotate(25deg);
+  transition: 3s;
+  transform: rotate(45deg);
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
@@ -12431,7 +12432,7 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   width: 96px;
   height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   color: #ffffff;
   margin: 24px auto 24px;
 }
