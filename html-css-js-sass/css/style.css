@@ -335,4 +335,10 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+@media all and (min-width: 922px) {
+  .main-nav .open-menu-holder {
+    display: block;
+  }
+}
 /*# sourceMappingURL=style.css.map */

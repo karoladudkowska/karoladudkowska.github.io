@@ -24,7 +24,6 @@
             font-size: 28px;
             line-height: 50px;
             cursor: pointer;
-        // dlaczego takie watości
     }
 
     .mobile-hamburger {
@@ -67,5 +66,12 @@
                 }
             }
         }
+    }
+
+    @media all and (min-width: $large) {
+        .open-menu-holder {
+            display: block;
+        }
+
     }
 }
