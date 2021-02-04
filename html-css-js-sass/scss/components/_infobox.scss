@@ -1,0 +1,27 @@
+%common-infobox {
+    padding: 0 10px;
+    margin-top: 30px;
+    // dla urządzeń mobilnych
+    text-align: center;
+}
+
+.infobox {
+    @extend %common-infobox;
+
+    .infobox-inner {
+        border: 1px solid #e2e5ea;
+        padding: 25px;
+        border-radius: 2px;
+        &:hover {
+            box-shadow: 0 5px 20px #f0f0f0;
+        }
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+    }
+}

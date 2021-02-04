@@ -1,0 +1,35 @@
+
+
+
+%btn {
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    // bardziej dotyczy buttona niz linka
+    
+}
+.btn-primary {
+    @extend %btn;
+    
+    background-color: $primary-color;
+    
+    &:hover {
+        background-color: $buttons-color;
+
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    
+    background-color: $buttons-color;
+    
+    &:hover {
+        background-color: $primary-color;
+
+    }
+}

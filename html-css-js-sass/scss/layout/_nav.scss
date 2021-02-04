@@ -15,11 +15,12 @@
         // dlaczego 50px?
         display: inline-block;
 
-        img {
+            img {
             height: 100%;
-        }
+            }
 
         }
+
         %mobile-controls {
             font-size: 28px;
             line-height: 50px;
@@ -42,11 +43,12 @@
         background-color: $primary-color;
         top: 0;
         right: 0;
-        max-width: 480px;
+        // max-width: 480px; 
         width: 480px;
         text-align: right;
         padding: 12px 23px;
         display: none;
+        
 
         &.open {
             display: block;
@@ -54,11 +56,15 @@
 
         .menu {
             list-style: none;
+          
+            
 
             .menu-item {
                 font-size: 50px;
+                // dlaczego fz tu a nie na 
                 text-transform: uppercase;
                 padding: 20px 0;
+                
 
                a {
                     color: #fff;
@@ -69,9 +75,54 @@
     }
 
     @media all and (min-width: $large) {
+
+        .main-nav-holder {
+            justify-content: flex-start;
+        }
+        .brand {
+            margin-top: 20px;
+            height: 75px;
+            // margin-left: 385px;
+        }
+
+        %mobile-controls {
+            display: none;
+        }
+      
+
         .open-menu-holder {
             display: block;
+            position: static;
+            background-color: transparent;
+            width: auto;
+            max-width: 100%;
+            padding: 0;
+            align-self: flex-start;
+            
+    
+        .menu {
+            
+            background-color: #fff;
+            
+            
+            
+            .menu-item {
+                
+                display: inline-block;
+                
+                margin: 0 20px;
+
+               a {  
+                font-size: $primary-font-size;
+                color: $secondary-color;
+                font-weight: 700px;
+            
+               
+                }
+            
+                     }
         }
 
     }
+}
 }
