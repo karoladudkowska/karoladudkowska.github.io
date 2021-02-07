@@ -1,0 +1,76 @@
+
+
+
+.appointment {
+    
+    padding: 0;
+   
+        @include flexbox;
+    
+
+        .desctop-background {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 40%;
+            display: none;
+          
+        // / display none tyko po to by gdziś nie wystawało bo i tak ukryte pod form który ma własny background-  bez media ukryte pod form
+            }
+
+    form {
+        
+        width: 100%; 
+        background-color: $primary-color;
+        padding: 80px 40px;
+
+        .appointment-message {
+            width: 100%;
+            display: none;
+
+            &.error {
+                color: #f00;
+                display: block;
+                // bez block niewidczne
+                // dlaczego tu kolor error a w inputs color był red ale blady?
+            }
+
+            &.send {
+                color: #fff;
+                display: block;
+            }
+        }
+    }
+
+
+    @media all and (min-width: $large ) {
+        form {
+            width: 60%;
+            padding: 80px;
+            @include flexbox;
+            justify-content: space-between;
+            input,
+            select {
+                width: 49%;
+            }
+            textarea{
+                margin: 60px 0;
+            } 
+        }
+
+        .desctop-background  {
+            display: block;
+            width: 40%;
+
+    
+        // order: 1; nie trzeba orderu bo zawzsze odsłoni się z prawej?
+           
+         }
+  
+    
+    }
+}
+
+
+
+    

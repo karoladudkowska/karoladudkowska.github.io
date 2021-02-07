@@ -1,9 +1,39 @@
 @mixin flexbox {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
 @mixin flex-align ($justify, $align) {
     justify-content: $justify;
     align-items: $align;
+}
+
+@mixin menu-list {
+    
+        list-style: none;
+            
+        background-color: #fff;
+        
+        
+        
+            .menu-item {
+            
+            display: inline-block;
+            
+            margin: 0 20px;
+            font-size: initial;
+
+            a {  
+            font-size: $primary-font-size;
+            color: $secondary-color;
+            font-weight: 700px;
+            text-decoration: none;
+            text-transform: uppercase;
+           
+            }
+        
+        }
+    
+
+
 }

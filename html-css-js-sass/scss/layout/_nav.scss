@@ -25,7 +25,7 @@
             font-size: 28px;
             line-height: 50px;
             cursor: pointer;
-    }
+        }
 
     .mobile-hamburger {
         @extend %mobile-controls;
@@ -74,23 +74,24 @@
         }
     }
 
-    @media all and (min-width: $large) {
+        @media all and (min-width: $large) {
 
-        .main-nav-holder {
+            .main-nav-holder {
             justify-content: flex-start;
-        }
-        .brand {
+            }
+
+            .brand {
             margin-top: 20px;
             height: 75px;
             // margin-left: 385px;
-        }
+            }
 
-        %mobile-controls {
+            %mobile-controls {
             display: none;
-        }
+            }
       
 
-        .open-menu-holder {
+            .open-menu-holder {
             display: block;
             position: static;
             background-color: transparent;
@@ -100,28 +101,29 @@
             align-self: flex-start;
             
     
-        .menu {
-            
-            background-color: #fff;
-            
-            
-            
-            .menu-item {
-                
-                display: inline-block;
-                
-                margin: 0 20px;
-
-               a {  
-                font-size: $primary-font-size;
-                color: $secondary-color;
-                font-weight: 700px;
-            
-               
+                .menu {
+                    @include menu-list;
                 }
             
-                     }
-        }
+        //     background-color: #fff;
+            
+            
+            
+        //         .menu-item {
+                
+        //         display: inline-block;
+                
+        //         margin: 0 20px;
+
+        //         a {  
+        //         font-size: $primary-font-size;
+        //         color: $secondary-color;
+        //         font-weight: 700px;
+               
+        //         }
+            
+        //     }
+        // }
 
     }
 }
